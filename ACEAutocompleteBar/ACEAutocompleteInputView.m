@@ -87,6 +87,7 @@ NSUInteger DeviceSystemMajorVersion()
         
         // clean the rest of separators
         _suggestionListView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 1.0f, 1.0f)];
+        _suggestionListView.separatorStyle = UITableViewCellSeparatorStyleNone;
         
         // add the table as subview
         [self addSubview:_suggestionListView];
